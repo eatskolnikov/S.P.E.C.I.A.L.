@@ -1,0 +1,27 @@
+@font-face {
+    font-family: monofonto;
+    src: url(../fonts/monofonto.ttf);
+}
+html, body{
+  font-family: monofonto;
+  background-color:#000;
+  height:100%;
+  color:#0f0;
+}
+h1,h2,h3,h4,h5,p,span, a{
+  font-family:monofonto;
+  color:#0f0;
+}
+input[type=number]
+{
+  border: 0 !important;
+  background: #000 !important;
+  color: #0f0 !important;
+  font-family: monofonto !important;
+  font-size: 14px;
+}
+.uk-modal-dialog{
+  width:560px;
+  padding:0;
+  background: #000;
+}
