@@ -1,5 +1,6 @@
 var app = angular.module('SpecialApp', ['ngRoute']);
-app.config(['$routeProvider','$locationProvider', function($routeProvider, $locationProvider){
+
+app.config(['$routeProvider','$locationProvider', function ($routeProvider, $locationProvider) {
   $routeProvider
     .when('/', {
         templateUrl: 'app/views/special/form.html',
